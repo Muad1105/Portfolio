@@ -1,0 +1,27 @@
+.footer-section {
+  height: 30vh;
+  background-color: black;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10%;
+  align-items: center;
+
+  .social-media {
+    display: flex;
+    padding: 0 20%;
+    justify-content: space-around;
+    gap: 2vw;
+    font-size: 25px;
+
+    a {
+      color: #fff;
+    }
+    .icons {
+      &:hover {
+        cursor: pointer;
+        color: rgb(122, 43, 213);
+      }
+    }
+  }
+}

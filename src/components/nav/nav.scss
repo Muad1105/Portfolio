@@ -1,0 +1,37 @@
+.nav-section {
+  border-bottom: 1px solid rgb(158, 158, 158);
+  padding: 25px 0;
+  ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 40px;
+
+    li {
+      padding: 5px 20px;
+      color: rgb(120, 120, 120);
+
+      &:hover {
+        cursor: pointer;
+        color: rgb(62, 63, 63);
+      }
+
+      Link {
+        text-decoration: none;
+        p {
+          color: rgb(120, 120, 120);
+          text-decoration: none;
+
+          &:hover {
+            cursor: pointer;
+            color: rgb(62, 63, 63);
+          }
+        }
+      }
+
+      &:active {
+        scale: 0.95;
+      }
+    }
+  }
+}
