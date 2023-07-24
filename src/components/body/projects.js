@@ -2,14 +2,15 @@ import loginCountryList from "../images/login_country.png";
 import userProfile from "../images/user_profiles.png";
 import addContact from "../images/add_contact_list.png";
 import subscription from "../images/subscription_page.png";
+import weatherApp from "../images/weather_app.png";
 
 const projects = [
   {
-    name: "Signin and display country List",
-    url: "https://muad1105.github.io/login_country_list/",
-    desc: "A user can login after registration, validations are present for inputs, Login after registration to view Country Lists",
-    toolset: ["React Hooks", "Redux", "react-router-dom"],
-    image: loginCountryList,
+    name: "Find search place weather conditions",
+    url: "https://muad1105.github.io/weather-app-update/",
+    desc: "User can serach for place to display the current weather and 5 dats forecasted weather",
+    toolset: ["React Hooks", "Rest API", "axios"],
+    image: weatherApp,
   },
   {
     name: "Profile Page for users from List of users",
