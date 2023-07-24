@@ -8,6 +8,7 @@ import Contact from "./components/contact/Contact";
 import Head from "./components/head/Head";
 import Body from "./components/body/Body";
 import Footer from "./components/footer/Footer";
+import ScrollToTop from "./components/scrollToTop/ScrollToTop";
 // import {}
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Body />
       <Contact />
       <Footer />
+      <ScrollToTop />
     </div>
   );
 }

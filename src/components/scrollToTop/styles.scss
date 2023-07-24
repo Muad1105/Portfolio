@@ -1,0 +1,20 @@
+.scroll-up {
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  border: 2px solid rgb(119, 124, 46);
+  color: black;
+  border-radius: 50%;
+  background-color: #337cdb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 20px;
+  right: 20px;
+  position: fixed;
+  cursor: pointer;
+
+  .scroll-up-icon {
+    font-size: 30px;
+  }
+}
