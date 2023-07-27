@@ -1,4 +1,4 @@
-import { Route, Router, Routes } from "react-router-dom";
+import React, { Suspense } from "react";
 import "./App.css";
 import Homepage from "./components/Homepage";
 import About from "./components/about/About";
@@ -14,14 +14,16 @@ import ScrollToTop from "./components/scrollToTop/ScrollToTop";
 function App() {
   return (
     <div className="App">
-      <Nav />
-      <Head />
-      <About />
-      <Skills />
-      <Body />
-      <Contact />
-      <Footer />
-      <ScrollToTop />
+      <Suspense fallback="loading">
+        <Nav />
+        <Head />
+        <About />
+        <Skills />
+        <Body />
+        <Contact />
+        <Footer />
+        <ScrollToTop />
+      </Suspense>
     </div>
   );
 }

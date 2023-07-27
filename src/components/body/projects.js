@@ -14,10 +14,10 @@ const projects = [
   },
   {
     name: "Profile Page for users from List of users",
-    url: "https://muad1105.github.io/display_users/#/accounts",
-    desc: "A list of users are being displayed, On selecting each users - the profile page is displayed, Chat component is present, Logout from user profile view",
+    url: "https://muad1105.github.io/country_list_app",
+    desc: "A list of countries respective to continents can be selected after register and signin",
     toolset: ["Redux-toolkit", "react-router-dom", "SCSS"],
-    image: userProfile,
+    image: loginCountryList,
   },
   {
     name: "Add a list of contacts",
