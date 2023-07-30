@@ -7,9 +7,9 @@ import { BsLinkedin } from "react-icons/bs";
 const Contact = () => {
   return (
     <div className="contact-section" id="contactElement">
-      <h1>NEED A FRONTEND DEVELOPER? LET'S BUILD SOMETHIG.</h1>
+      <h1>NEED A FRONTEND DEVELOPER?</h1>
       <div className="contact-description">
-        <p>Don't hesitate to get in touch </p>
+        <p>Get in touch </p>
         <div className="contact-details">
           <div className="email">
             <div className="email-title">Email</div>

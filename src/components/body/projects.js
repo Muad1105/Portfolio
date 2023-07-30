@@ -8,7 +8,7 @@ const projects = [
   {
     name: "Find search place weather conditions",
     url: "https://muad1105.github.io/weather-app-update/",
-    desc: "User can serach for place to display the current weather and 5 dats forecasted weather",
+    desc: "User can serach for place to display the current weather and 5 day forecasted weather",
     toolset: ["React Hooks", "Rest API", "axios"],
     image: weatherApp,
   },
