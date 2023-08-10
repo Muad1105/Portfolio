@@ -12,13 +12,13 @@ const projects = [
     toolset: ["React Hooks", "Rest API", "axios"],
     image: weatherApp,
   },
-  {
-    name: "Profile Page for users from List of users",
-    url: "https://muad1105.github.io/country_list_app",
-    desc: "A list of countries respective to continents can be selected after register and signin",
-    toolset: ["Redux-toolkit", "react-router-dom", "SCSS"],
-    image: loginCountryList,
-  },
+  // {
+  //   name: "Profile Page for users from List of users",
+  //   url: "https://muad1105.github.io/country_list_app",
+  //   desc: "A list of countries respective to continents can be selected after register and signin",
+  //   toolset: ["Redux-toolkit", "react-router-dom", "SCSS"],
+  //   image: loginCountryList,
+  // },
   {
     name: "Add a list of contacts",
     url: "https://muad1105.github.io/contacts_add/",
