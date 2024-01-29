@@ -1,0 +1,28 @@
+.skills-section {
+  //   padding: 0 40vh 10vh;
+  width: 40vw;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  //   align-items: flex-start;
+  color: rgb(211, 211, 211);
+
+  h1 {
+    margin: 2vw 0;
+  }
+
+  .language {
+    text-align: left;
+    margin-bottom: 5vh;
+    h2 {
+      margin-bottom: 2vh;
+    }
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      li {
+        margin-left: 3vw;
+      }
+    }
+  }
+}

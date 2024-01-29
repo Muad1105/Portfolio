@@ -1,0 +1,18 @@
+.nav-section {
+  border-bottom: 1px solid rgb(158, 158, 158);
+  padding: 25px 0;
+}
+.nav-section ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  gap: 40px;
+}
+.nav-section ul li {
+  padding: 5px 20px;
+  color: rgb(29, 151, 227);
+}
+.nav-section ul li:hover {
+  cursor: pointer;
+  color: rgb(5, 72, 113);
+}/*# sourceMappingURL=nav.css.map */

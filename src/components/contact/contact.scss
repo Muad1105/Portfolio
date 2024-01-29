@@ -1,0 +1,72 @@
+.contact-section {
+  margin: 10vh 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5vh;
+
+  .contact-description {
+    display: flex;
+    gap: 10vw;
+
+    p {
+      color: white;
+    }
+
+    .contact-details {
+      display: flex;
+      flex-direction: column;
+      gap: 1vw;
+
+      .email {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        color: white;
+
+        .email-title {
+          text-align: left;
+          font-family: "Fjalla One", sans-serif;
+          letter-spacing: 0.1vw;
+        }
+        .custom-link {
+          font-family: nunito-400;
+          text-decoration: none;
+          font-weight: 500;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+      .social-media {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 1vw;
+
+        .connect-title {
+          text-align: left;
+          letter-spacing: 0.1vw;
+          font-family: "Fjalla One", sans-serif;
+          color: white;
+        }
+        .connect-icons {
+          display: flex;
+          gap: 1vw;
+          font-size: 2vw;
+
+          .icons {
+            color: rgb(122, 43, 213);
+            &:hover {
+              color: rgb(168, 92, 255);
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+}
