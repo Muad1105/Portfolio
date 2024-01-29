@@ -12,11 +12,9 @@ const Skills = () => {
           <li>ES6</li>
           <li>React</li>
           <li>TypeScript</li>
-          <li>Next.js</li>
           <li>Node JS</li>
           <li>Redux</li>
           <li>Rest API</li>
-          <li>Webpack</li>
         </ul>
       </div>
       <div className="language">

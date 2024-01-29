@@ -6,8 +6,8 @@ const Head = () => {
     <div className="head-section">
       <p>Hi, My name is Muad Noushad</p>
       <h1 className="description">
-        I'm a MERN Stack Developer, Specialised in building Websites and Web
-        Applications using ReactJS, JavaScript, Typescript, Node and MongoDB.
+        A MERN Stack Developer, Specialised in building Web Applications
+        with NodeJS, ReactJS, MongoDB, JavaScript, Typescript, CSS.
       </h1>
     </div>
   );

@@ -23,7 +23,7 @@ const Body = () => {
                     return <li key={index}>{e}</li>;
                   })}
                 </ul>
-                <a href={e.url}>View project</a>
+                <a href={e.url} style={{color:"red"}}>View project</a>
               </div>
               <div className="projectImage">
                 <img src={e.image} alt="" />

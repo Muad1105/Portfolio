@@ -11,6 +11,10 @@
     display: flex;
     gap: 10vw;
 
+    p {
+      color: white;
+    }
+
     .contact-details {
       display: flex;
       flex-direction: column;
@@ -20,6 +24,7 @@
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
+        color: white;
 
         .email-title {
           text-align: left;
@@ -46,6 +51,7 @@
           text-align: left;
           letter-spacing: 0.1vw;
           font-family: "Fjalla One", sans-serif;
+          color: white;
         }
         .connect-icons {
           display: flex;
@@ -53,8 +59,9 @@
           font-size: 2vw;
 
           .icons {
+            color: rgb(122, 43, 213);
             &:hover {
-              color: rgb(122, 43, 213);
+              color: rgb(168, 92, 255);
               cursor: pointer;
             }
           }
